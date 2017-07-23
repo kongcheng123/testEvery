@@ -1,4 +1,4 @@
-package xy.design;
+package xy.design.proxy;
 
 /**
  * Created by xy on 2017-07-23 17:09
@@ -26,7 +26,7 @@ class realSubject extends subject{
     }
 }
 class proxy extends subject{
-    realSubject realSubject;
+    private realSubject realSubject;
     @Override
     public void request() {
         if(realSubject == null){
