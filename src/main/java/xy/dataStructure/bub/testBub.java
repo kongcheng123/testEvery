@@ -23,6 +23,17 @@ public class testBub {
         for (int a : num){
             System.out.println(a);
         }
-
     }
+
+    /**
+     * VisuAlgo图例方法
+     */
+    @Test
+    public void testAnother(){
+        boolean flag = false;
+        do{
+            flag = false;
+        }while (flag == true);
+    }
+
 }
